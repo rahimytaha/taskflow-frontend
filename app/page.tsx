@@ -7,9 +7,9 @@ import FeatureSection from "./_components/landing/featureSection/featureSection"
 export default function Home() {
   return (
     <div>
-      {/* <Header/>
+       <Header/>
       <HeroSection/>
-      <Image className="block mx-auto mt-14 mb-28  " alt="heroSectionDisplayExample" src={heroSectionDisplayExample}/> */}
+      <Image className="block mx-auto mt-14 mb-28  " alt="heroSectionDisplayExample" src={heroSectionDisplayExample}/> 
       <Integrations/>
       <FeatureSection/>
 

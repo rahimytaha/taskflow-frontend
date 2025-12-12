@@ -1,0 +1,25 @@
+{
+  "style": "default",
+  "tailwind": {
+    "config": {
+      "theme": {
+        "extend": {
+          "borderRadius": {
+            "lg": "0.5rem",
+            "xl": "0.75rem"
+          },
+          "colors": {
+            "border": "hsl(var(--border))",
+            "input": "hsl(var(--input))",
+            "background": "hsl(var(--background))",
+            "foreground": "hsl(var(--foreground))",
+            "primary": {
+              "DEFAULT": "hsl(221, 83%, 53%)",    // آبی دیزاین
+              "foreground": "hsl(210, 40%, 98%)"
+            }
+          }
+        }
+      }
+    }
+  }
+}
